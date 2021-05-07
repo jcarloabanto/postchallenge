@@ -7,26 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAC37D612644A9D9009A36C7 /* travello.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC37D602644A9D9009A36C7 /* travello.json */; };
+		FAC37D672644BC7E009A36C7 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC37D662644BC7E009A36C7 /* PostTableViewCell.swift */; };
+		FAC37D6A2644DABC009A36C7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC37D692644DABC009A36C7 /* DetailViewController.swift */; };
+		FAC37D732644E3D7009A36C7 /* post_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC37D722644E3D7009A36C7 /* post_challengeTests.swift */; };
 		FAE507662640EE3A002790C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE507652640EE3A002790C7 /* AppDelegate.swift */; };
 		FAE507682640EE3A002790C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE507672640EE3A002790C7 /* SceneDelegate.swift */; };
-		FAE5076A2640EE3A002790C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE507692640EE3A002790C7 /* ViewController.swift */; };
+		FAE5076A2640EE3A002790C7 /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE507692640EE3A002790C7 /* PostTableViewController.swift */; };
 		FAE5076D2640EE3A002790C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE5076B2640EE3A002790C7 /* Main.storyboard */; };
 		FAE5076F2640EE3B002790C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE5076E2640EE3B002790C7 /* Assets.xcassets */; };
 		FAE507722640EE3B002790C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE507702640EE3B002790C7 /* LaunchScreen.storyboard */; };
+		FAE5077F2640EF0C002790C7 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5077E2640EF0C002790C7 /* PostViewModel.swift */; };
+		FAE507832640EF39002790C7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE507822640EF39002790C7 /* Post.swift */; };
+		FAE507872640F0D6002790C7 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE507862640F0D6002790C7 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FAC37D752644E3D7009A36C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE5075A2640EE3A002790C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE507612640EE3A002790C7;
+			remoteInfo = "post challenge";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		FAC37D602644A9D9009A36C7 /* travello.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = travello.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		FAC37D662644BC7E009A36C7 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		FAC37D692644DABC009A36C7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FAC37D702644E3D7009A36C7 /* post challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "post challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC37D722644E3D7009A36C7 /* post_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = post_challengeTests.swift; sourceTree = "<group>"; };
+		FAC37D742644E3D7009A36C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE507622640EE3A002790C7 /* post challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "post challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE507652640EE3A002790C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE507672640EE3A002790C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAE507692640EE3A002790C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE507692640EE3A002790C7 /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
 		FAE5076C2640EE3A002790C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE5076E2640EE3B002790C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE507712640EE3B002790C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE507732640EE3B002790C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE5077E2640EF0C002790C7 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		FAE507822640EF39002790C7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FAE507862640F0D6002790C7 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FAC37D6D2644E3D7009A36C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE5075F2640EE3A002790C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +70,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAC37D652644BC5C009A36C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC37D662644BC7E009A36C7 /* PostTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC37D712644E3D7009A36C7 /* post challengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC37D722644E3D7009A36C7 /* post_challengeTests.swift */,
+				FAC37D742644E3D7009A36C7 /* Info.plist */,
+			);
+			path = "post challengeTests";
+			sourceTree = "<group>";
+		};
 		FAE507592640EE3A002790C7 = {
 			isa = PBXGroup;
 			children = (
 				FAE507642640EE3A002790C7 /* post challenge */,
+				FAC37D712644E3D7009A36C7 /* post challengeTests */,
 				FAE507632640EE3A002790C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				FAE507622640EE3A002790C7 /* post challenge.app */,
+				FAC37D702644E3D7009A36C7 /* post challengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,20 +108,76 @@
 		FAE507642640EE3A002790C7 /* post challenge */ = {
 			isa = PBXGroup;
 			children = (
+				FAC37D652644BC5C009A36C7 /* View */,
+				FAE5077D2640EEF3002790C7 /* API Service */,
+				FAE5077C2640EEEB002790C7 /* Controller */,
+				FAE5077B2640EEC8002790C7 /* View Model */,
+				FAE5077A2640EEC2002790C7 /* Model */,
 				FAE507652640EE3A002790C7 /* AppDelegate.swift */,
 				FAE507672640EE3A002790C7 /* SceneDelegate.swift */,
-				FAE507692640EE3A002790C7 /* ViewController.swift */,
 				FAE5076B2640EE3A002790C7 /* Main.storyboard */,
 				FAE5076E2640EE3B002790C7 /* Assets.xcassets */,
 				FAE507702640EE3B002790C7 /* LaunchScreen.storyboard */,
 				FAE507732640EE3B002790C7 /* Info.plist */,
+				FAC37D602644A9D9009A36C7 /* travello.json */,
 			);
 			path = "post challenge";
+			sourceTree = "<group>";
+		};
+		FAE5077A2640EEC2002790C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAE507822640EF39002790C7 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAE5077B2640EEC8002790C7 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5077E2640EF0C002790C7 /* PostViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		FAE5077C2640EEEB002790C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAE507692640EE3A002790C7 /* PostTableViewController.swift */,
+				FAC37D692644DABC009A36C7 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAE5077D2640EEF3002790C7 /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+				FAE507862640F0D6002790C7 /* APIService.swift */,
+			);
+			path = "API Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FAC37D6F2644E3D7009A36C7 /* post challengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC37D772644E3D7009A36C7 /* Build configuration list for PBXNativeTarget "post challengeTests" */;
+			buildPhases = (
+				FAC37D6C2644E3D7009A36C7 /* Sources */,
+				FAC37D6D2644E3D7009A36C7 /* Frameworks */,
+				FAC37D6E2644E3D7009A36C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC37D762644E3D7009A36C7 /* PBXTargetDependency */,
+			);
+			name = "post challengeTests";
+			productName = "post challengeTests";
+			productReference = FAC37D702644E3D7009A36C7 /* post challengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FAE507612640EE3A002790C7 /* post challenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAE507762640EE3B002790C7 /* Build configuration list for PBXNativeTarget "post challenge" */;
@@ -96,6 +204,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					FAC37D6F2644E3D7009A36C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FAE507612640EE3A002790C7;
+					};
 					FAE507612640EE3A002790C7 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -115,17 +227,26 @@
 			projectRoot = "";
 			targets = (
 				FAE507612640EE3A002790C7 /* post challenge */,
+				FAC37D6F2644E3D7009A36C7 /* post challengeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FAC37D6E2644E3D7009A36C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE507602640EE3A002790C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FAE507722640EE3B002790C7 /* LaunchScreen.storyboard in Resources */,
 				FAE5076F2640EE3B002790C7 /* Assets.xcassets in Resources */,
+				FAC37D612644A9D9009A36C7 /* travello.json in Resources */,
 				FAE5076D2640EE3A002790C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,17 +254,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FAC37D6C2644E3D7009A36C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC37D732644E3D7009A36C7 /* post_challengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAE5075E2640EE3A002790C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE5076A2640EE3A002790C7 /* ViewController.swift in Sources */,
+				FAC37D672644BC7E009A36C7 /* PostTableViewCell.swift in Sources */,
+				FAE5077F2640EF0C002790C7 /* PostViewModel.swift in Sources */,
+				FAE5076A2640EE3A002790C7 /* PostTableViewController.swift in Sources */,
 				FAE507662640EE3A002790C7 /* AppDelegate.swift in Sources */,
 				FAE507682640EE3A002790C7 /* SceneDelegate.swift in Sources */,
+				FAE507872640F0D6002790C7 /* APIService.swift in Sources */,
+				FAE507832640EF39002790C7 /* Post.swift in Sources */,
+				FAC37D6A2644DABC009A36C7 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC37D762644E3D7009A36C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE507612640EE3A002790C7 /* post challenge */;
+			targetProxy = FAC37D752644E3D7009A36C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FAE5076B2640EE3A002790C7 /* Main.storyboard */ = {
@@ -165,6 +307,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FAC37D782644E3D7009A36C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "post challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jc.post-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/post challenge.app/post challenge";
+			};
+			name = Debug;
+		};
+		FAC37D792644E3D7009A36C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "post challengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jc.post-challengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/post challenge.app/post challenge";
+			};
+			name = Release;
+		};
 		FAE507742640EE3B002790C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +500,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FAC37D772644E3D7009A36C7 /* Build configuration list for PBXNativeTarget "post challengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC37D782644E3D7009A36C7 /* Debug */,
+				FAC37D792644E3D7009A36C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FAE5075D2640EE3A002790C7 /* Build configuration list for PBXProject "post challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
